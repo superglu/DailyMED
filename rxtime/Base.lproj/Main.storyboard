@@ -23,7 +23,7 @@
         <!--Daily Med-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -32,9 +32,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="djh-aq-oo8" customClass="MADayView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rda-le-fG4" customClass="MADayView">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="492"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="djh-aq-oo8" userLabel="Week View" customClass="MAWeekView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="492"/>
+                                <color key="backgroundColor" red="0.38232570415741873" green="1" blue="0.42221646909152755" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j0M-kF-N2s">
                                 <rect key="frame" x="0.0" y="492" width="600" height="44"/>
@@ -44,12 +48,18 @@
                                         <state key="normal" title="Week">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="clickedWeek:" destination="9pv-A4-QxB" eventType="touchUpInside" id="ZdF-81-kud"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhd-vL-gyM">
                                         <rect key="frame" x="0.0" y="7" width="296" height="30"/>
                                         <state key="normal" title="Day">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="clickedDay:" destination="9pv-A4-QxB" eventType="touchUpInside" id="bhy-WH-Zf4"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.94890372983870963" green="0.94390283720694845" blue="0.90347154739566526" alpha="1" colorSpace="calibratedRGB"/>
@@ -75,17 +85,29 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="djh-aq-oo8" secondAttribute="trailing" id="0cV-JD-Mov"/>
                             <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="j0M-kF-N2s" secondAttribute="bottom" id="1Vh-Nm-NMx"/>
+                            <constraint firstAttribute="trailing" secondItem="djh-aq-oo8" secondAttribute="trailing" id="4NP-Op-fgs"/>
                             <constraint firstItem="djh-aq-oo8" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="8HT-PB-b3o"/>
+                            <constraint firstAttribute="trailing" secondItem="rda-le-fG4" secondAttribute="trailing" id="Ans-zH-4AB"/>
                             <constraint firstItem="j0M-kF-N2s" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="FRe-cK-uCh"/>
+                            <constraint firstItem="j0M-kF-N2s" firstAttribute="top" secondItem="djh-aq-oo8" secondAttribute="bottom" id="GPK-pR-nUK"/>
+                            <constraint firstItem="rda-le-fG4" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="Jty-oX-o5Z"/>
+                            <constraint firstItem="j0M-kF-N2s" firstAttribute="top" secondItem="rda-le-fG4" secondAttribute="bottom" id="KAm-qb-zDK"/>
                             <constraint firstAttribute="trailing" secondItem="j0M-kF-N2s" secondAttribute="trailing" id="Tki-5H-BWY"/>
+                            <constraint firstItem="rda-le-fG4" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="ccc-qp-hxC"/>
                             <constraint firstItem="djh-aq-oo8" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="dza-nG-fdJ"/>
                             <constraint firstItem="j0M-kF-N2s" firstAttribute="top" secondItem="djh-aq-oo8" secondAttribute="bottom" id="ifh-gS-HEb"/>
+                            <constraint firstItem="djh-aq-oo8" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="sqp-Vq-yf2"/>
+                            <constraint firstItem="djh-aq-oo8" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="wsI-WR-h62"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="Daily Med" id="9LC-EW-U1f">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="fBj-aF-G3t"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="dayView" destination="rda-le-fG4" id="Dwc-Is-kVs"/>
+                        <outlet property="weekView" destination="djh-aq-oo8" id="cu5-vm-aNq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
