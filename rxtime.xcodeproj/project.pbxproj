@@ -15,6 +15,15 @@
 		876E51501A228AA9008E5213 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876E514F1A228AA9008E5213 /* Images.xcassets */; };
 		876E51531A228AA9008E5213 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876E51511A228AA9008E5213 /* LaunchScreen.xib */; };
 		876E515F1A228AA9008E5213 /* rxtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E515E1A228AA9008E5213 /* rxtimeTests.m */; };
+		876E516F1A228B51008E5213 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876E516E1A228B51008E5213 /* WatchKit.framework */; };
+		876E51761A228B51008E5213 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51751A228B51008E5213 /* InterfaceController.m */; };
+		876E51791A228B51008E5213 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51781A228B51008E5213 /* NotificationController.m */; };
+		876E517C1A228B51008E5213 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E517B1A228B51008E5213 /* GlanceController.m */; };
+		876E517E1A228B51008E5213 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876E517D1A228B51008E5213 /* Images.xcassets */; };
+		876E51821A228B51008E5213 /* rxtime Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 876E51811A228B51008E5213 /* rxtime Watch App.app */; };
+		876E51891A228B51008E5213 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876E51881A228B51008E5213 /* Interface.storyboard */; };
+		876E518B1A228B51008E5213 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876E518A1A228B51008E5213 /* Images.xcassets */; };
+		876E518E1A228B51008E5213 /* rxtime WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 876E516C1A228B51008E5213 /* rxtime WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +34,35 @@
 			remoteGlobalIDString = 876E513B1A228AA9008E5213;
 			remoteInfo = rxtime;
 		};
+		876E51831A228B51008E5213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876E51341A228AA9008E5213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876E51801A228B51008E5213;
+			remoteInfo = "rxtime Watch App";
+		};
+		876E518C1A228B51008E5213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876E51341A228AA9008E5213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876E516B1A228B51008E5213;
+			remoteInfo = "rxtime WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		876E51951A228B51008E5213 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				876E518E1A228B51008E5213 /* rxtime WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		876E513C1A228AA9008E5213 /* rxtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rxtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +80,21 @@
 		876E51581A228AA9008E5213 /* rxtimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rxtimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		876E515D1A228AA9008E5213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876E515E1A228AA9008E5213 /* rxtimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rxtimeTests.m; sourceTree = "<group>"; };
+		876E516C1A228B51008E5213 /* rxtime WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "rxtime WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876E516E1A228B51008E5213 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		876E51721A228B51008E5213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876E51731A228B51008E5213 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		876E51741A228B51008E5213 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		876E51751A228B51008E5213 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		876E51771A228B51008E5213 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		876E51781A228B51008E5213 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		876E517A1A228B51008E5213 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		876E517B1A228B51008E5213 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		876E517D1A228B51008E5213 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		876E51811A228B51008E5213 /* rxtime Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rxtime Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		876E51871A228B51008E5213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876E51881A228B51008E5213 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		876E518A1A228B51008E5213 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +112,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		876E51691A228B51008E5213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876E516F1A228B51008E5213 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,6 +128,9 @@
 			children = (
 				876E513E1A228AA9008E5213 /* rxtime */,
 				876E515B1A228AA9008E5213 /* rxtimeTests */,
+				876E51701A228B51008E5213 /* rxtime WatchKit Extension */,
+				876E51851A228B51008E5213 /* rxtime Watch App */,
+				876E516D1A228B51008E5213 /* Frameworks */,
 				876E513D1A228AA9008E5213 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +140,8 @@
 			children = (
 				876E513C1A228AA9008E5213 /* rxtime.app */,
 				876E51581A228AA9008E5213 /* rxtimeTests.xctest */,
+				876E516C1A228B51008E5213 /* rxtime WatchKit Extension.appex */,
+				876E51811A228B51008E5213 /* rxtime Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +189,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		876E516D1A228B51008E5213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				876E516E1A228B51008E5213 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		876E51701A228B51008E5213 /* rxtime WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				876E51741A228B51008E5213 /* InterfaceController.h */,
+				876E51751A228B51008E5213 /* InterfaceController.m */,
+				876E51771A228B51008E5213 /* NotificationController.h */,
+				876E51781A228B51008E5213 /* NotificationController.m */,
+				876E517A1A228B51008E5213 /* GlanceController.h */,
+				876E517B1A228B51008E5213 /* GlanceController.m */,
+				876E517D1A228B51008E5213 /* Images.xcassets */,
+				876E51711A228B51008E5213 /* Supporting Files */,
+			);
+			path = "rxtime WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		876E51711A228B51008E5213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876E51721A228B51008E5213 /* Info.plist */,
+				876E51731A228B51008E5213 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		876E51851A228B51008E5213 /* rxtime Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				876E51881A228B51008E5213 /* Interface.storyboard */,
+				876E518A1A228B51008E5213 /* Images.xcassets */,
+				876E51861A228B51008E5213 /* Supporting Files */,
+			);
+			path = "rxtime Watch App";
+			sourceTree = "<group>";
+		};
+		876E51861A228B51008E5213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				876E51871A228B51008E5213 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,10 +249,12 @@
 				876E51381A228AA9008E5213 /* Sources */,
 				876E51391A228AA9008E5213 /* Frameworks */,
 				876E513A1A228AA9008E5213 /* Resources */,
+				876E51951A228B51008E5213 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				876E518D1A228B51008E5213 /* PBXTargetDependency */,
 			);
 			name = rxtime;
 			productName = rxtime;
@@ -162,6 +279,39 @@
 			productReference = 876E51581A228AA9008E5213 /* rxtimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		876E516B1A228B51008E5213 /* rxtime WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876E51921A228B51008E5213 /* Build configuration list for PBXNativeTarget "rxtime WatchKit Extension" */;
+			buildPhases = (
+				876E51681A228B51008E5213 /* Sources */,
+				876E51691A228B51008E5213 /* Frameworks */,
+				876E516A1A228B51008E5213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876E51841A228B51008E5213 /* PBXTargetDependency */,
+			);
+			name = "rxtime WatchKit Extension";
+			productName = "rxtime WatchKit Extension";
+			productReference = 876E516C1A228B51008E5213 /* rxtime WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		876E51801A228B51008E5213 /* rxtime Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876E518F1A228B51008E5213 /* Build configuration list for PBXNativeTarget "rxtime Watch App" */;
+			buildPhases = (
+				876E517F1A228B51008E5213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rxtime Watch App";
+			productName = "rxtime Watch App";
+			productReference = 876E51811A228B51008E5213 /* rxtime Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,6 +327,12 @@
 					876E51571A228AA9008E5213 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 876E513B1A228AA9008E5213;
+					};
+					876E516B1A228B51008E5213 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					876E51801A228B51008E5213 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -195,6 +351,8 @@
 			targets = (
 				876E513B1A228AA9008E5213 /* rxtime */,
 				876E51571A228AA9008E5213 /* rxtimeTests */,
+				876E516B1A228B51008E5213 /* rxtime WatchKit Extension */,
+				876E51801A228B51008E5213 /* rxtime Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +372,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876E516A1A228B51008E5213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876E51821A228B51008E5213 /* rxtime Watch App.app in Resources */,
+				876E517E1A228B51008E5213 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876E517F1A228B51008E5213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876E51891A228B51008E5213 /* Interface.storyboard in Resources */,
+				876E518B1A228B51008E5213 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +415,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		876E51681A228B51008E5213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876E51791A228B51008E5213 /* NotificationController.m in Sources */,
+				876E51761A228B51008E5213 /* InterfaceController.m in Sources */,
+				876E517C1A228B51008E5213 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -246,6 +432,16 @@
 			isa = PBXTargetDependency;
 			target = 876E513B1A228AA9008E5213 /* rxtime */;
 			targetProxy = 876E51591A228AA9008E5213 /* PBXContainerItemProxy */;
+		};
+		876E51841A228B51008E5213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876E51801A228B51008E5213 /* rxtime Watch App */;
+			targetProxy = 876E51831A228B51008E5213 /* PBXContainerItemProxy */;
+		};
+		876E518D1A228B51008E5213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876E516B1A228B51008E5213 /* rxtime WatchKit Extension */;
+			targetProxy = 876E518C1A228B51008E5213 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,6 +595,62 @@
 			};
 			name = Release;
 		};
+		876E51901A228B51008E5213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = rxtime_WatchKit_Extension;
+				INFOPLIST_FILE = "rxtime Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		876E51911A228B51008E5213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = rxtime_WatchKit_Extension;
+				INFOPLIST_FILE = "rxtime Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		876E51931A228B51008E5213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "rxtime WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		876E51941A228B51008E5213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rxtime WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,6 +676,22 @@
 			buildConfigurations = (
 				876E51661A228AA9008E5213 /* Debug */,
 				876E51671A228AA9008E5213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		876E518F1A228B51008E5213 /* Build configuration list for PBXNativeTarget "rxtime Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876E51901A228B51008E5213 /* Debug */,
+				876E51911A228B51008E5213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		876E51921A228B51008E5213 /* Build configuration list for PBXNativeTarget "rxtime WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876E51931A228B51008E5213 /* Debug */,
+				876E51941A228B51008E5213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
