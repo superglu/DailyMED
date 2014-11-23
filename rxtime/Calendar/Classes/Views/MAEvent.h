@@ -25,6 +25,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
 NSInteger MAEvent_sortByStartTime(id ev1, id ev2, void *keyForSorting);
