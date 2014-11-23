@@ -20,6 +20,7 @@
 		348AF92B1A2291D900613CE7 /* ma_rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91D1A2291D900613CE7 /* ma_rightArrow.png */; };
 		348AF92C1A2291D900613CE7 /* ma_rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91E1A2291D900613CE7 /* ma_rightArrow@2x.png */; };
 		348AF92D1A2291D900613CE7 /* ma_topBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91F1A2291D900613CE7 /* ma_topBackground.png */; };
+		348AF96A1A2297F200613CE7 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348AF9691A2297F200613CE7 /* EventKit.framework */; };
 		876E51421A228AA9008E5213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51411A228AA9008E5213 /* main.m */; };
 		876E51451A228AA9008E5213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51441A228AA9008E5213 /* AppDelegate.m */; };
 		876E51481A228AA9008E5213 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51471A228AA9008E5213 /* FirstViewController.m */; };
@@ -99,6 +100,7 @@
 		348AF91D1A2291D900613CE7 /* ma_rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ma_rightArrow.png; sourceTree = "<group>"; };
 		348AF91E1A2291D900613CE7 /* ma_rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ma_rightArrow@2x.png"; sourceTree = "<group>"; };
 		348AF91F1A2291D900613CE7 /* ma_topBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ma_topBackground.png; sourceTree = "<group>"; };
+		348AF9691A2297F200613CE7 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		876E513C1A228AA9008E5213 /* rxtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rxtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876E51401A228AA9008E5213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876E51411A228AA9008E5213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348AF96A1A2297F200613CE7 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +301,7 @@
 		876E516D1A228B51008E5213 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				348AF9691A2297F200613CE7 /* EventKit.framework */,
 				876E516E1A228B51008E5213 /* WatchKit.framework */,
 			);
 			name = Frameworks;

@@ -11,7 +11,7 @@
 #import "WeekViewExampleController.h"
 @interface FirstViewController ()
 {
-    DayViewExampleController * dayVC;
+    //DayViewExampleController * dayVC;
     WeekViewExampleController * weekWC;
 }
 
@@ -22,8 +22,8 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
-    dayVC = [[DayViewExampleController alloc] initWithNibName:@"" bundle:[NSBundle mainBundle]];
-    
+    //dayVC = [[DayViewExampleController alloc] init];
+    //self.calendar = dayVC.view;
 }
 
 - (void)didReceiveMemoryWarning {
