@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		348AF9211A2291D900613CE7 /* DayViewExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348AF9091A2291D900613CE7 /* DayViewExampleController.m */; };
+		348AF9221A2291D900613CE7 /* WeekViewExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348AF90B1A2291D900613CE7 /* WeekViewExampleController.m */; };
+		348AF9231A2291D900613CE7 /* MAEventKitDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 348AF90E1A2291D900613CE7 /* MAEventKitDataSource.m */; };
+		348AF9241A2291D900613CE7 /* MADayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348AF9111A2291D900613CE7 /* MADayView.m */; };
+		348AF9251A2291D900613CE7 /* MAEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 348AF9131A2291D900613CE7 /* MAEvent.m */; };
+		348AF9261A2291D900613CE7 /* MAGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348AF9151A2291D900613CE7 /* MAGridView.m */; };
+		348AF9271A2291D900613CE7 /* MAWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348AF9171A2291D900613CE7 /* MAWeekView.m */; };
+		348AF9281A2291D900613CE7 /* TapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348AF9191A2291D900613CE7 /* TapDetectingView.m */; };
+		348AF9291A2291D900613CE7 /* ma_leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91B1A2291D900613CE7 /* ma_leftArrow.png */; };
+		348AF92A1A2291D900613CE7 /* ma_leftArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91C1A2291D900613CE7 /* ma_leftArrow@2x.png */; };
+		348AF92B1A2291D900613CE7 /* ma_rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91D1A2291D900613CE7 /* ma_rightArrow.png */; };
+		348AF92C1A2291D900613CE7 /* ma_rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91E1A2291D900613CE7 /* ma_rightArrow@2x.png */; };
+		348AF92D1A2291D900613CE7 /* ma_topBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91F1A2291D900613CE7 /* ma_topBackground.png */; };
 		876E51421A228AA9008E5213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51411A228AA9008E5213 /* main.m */; };
 		876E51451A228AA9008E5213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51441A228AA9008E5213 /* AppDelegate.m */; };
 		876E51481A228AA9008E5213 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51471A228AA9008E5213 /* FirstViewController.m */; };
@@ -65,6 +78,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		348AF9081A2291D900613CE7 /* DayViewExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewExampleController.h; sourceTree = "<group>"; };
+		348AF9091A2291D900613CE7 /* DayViewExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewExampleController.m; sourceTree = "<group>"; };
+		348AF90A1A2291D900613CE7 /* WeekViewExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekViewExampleController.h; sourceTree = "<group>"; };
+		348AF90B1A2291D900613CE7 /* WeekViewExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekViewExampleController.m; sourceTree = "<group>"; };
+		348AF90D1A2291D900613CE7 /* MAEventKitDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAEventKitDataSource.h; sourceTree = "<group>"; };
+		348AF90E1A2291D900613CE7 /* MAEventKitDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAEventKitDataSource.m; sourceTree = "<group>"; };
+		348AF9101A2291D900613CE7 /* MADayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADayView.h; sourceTree = "<group>"; };
+		348AF9111A2291D900613CE7 /* MADayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADayView.m; sourceTree = "<group>"; };
+		348AF9121A2291D900613CE7 /* MAEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAEvent.h; sourceTree = "<group>"; };
+		348AF9131A2291D900613CE7 /* MAEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAEvent.m; sourceTree = "<group>"; };
+		348AF9141A2291D900613CE7 /* MAGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGridView.h; sourceTree = "<group>"; };
+		348AF9151A2291D900613CE7 /* MAGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGridView.m; sourceTree = "<group>"; };
+		348AF9161A2291D900613CE7 /* MAWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAWeekView.h; sourceTree = "<group>"; };
+		348AF9171A2291D900613CE7 /* MAWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAWeekView.m; sourceTree = "<group>"; };
+		348AF9181A2291D900613CE7 /* TapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapDetectingView.h; sourceTree = "<group>"; };
+		348AF9191A2291D900613CE7 /* TapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapDetectingView.m; sourceTree = "<group>"; };
+		348AF91B1A2291D900613CE7 /* ma_leftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ma_leftArrow.png; sourceTree = "<group>"; };
+		348AF91C1A2291D900613CE7 /* ma_leftArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ma_leftArrow@2x.png"; sourceTree = "<group>"; };
+		348AF91D1A2291D900613CE7 /* ma_rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ma_rightArrow.png; sourceTree = "<group>"; };
+		348AF91E1A2291D900613CE7 /* ma_rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ma_rightArrow@2x.png"; sourceTree = "<group>"; };
+		348AF91F1A2291D900613CE7 /* ma_topBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ma_topBackground.png; sourceTree = "<group>"; };
 		876E513C1A228AA9008E5213 /* rxtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rxtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876E51401A228AA9008E5213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876E51411A228AA9008E5213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -125,6 +159,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		348AF9031A2291D900613CE7 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				348AF9041A2291D900613CE7 /* Classes */,
+				348AF91A1A2291D900613CE7 /* Images */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		348AF9041A2291D900613CE7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				348AF9051A2291D900613CE7 /* Example */,
+				348AF90C1A2291D900613CE7 /* Extensions */,
+				348AF90F1A2291D900613CE7 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		348AF9051A2291D900613CE7 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				348AF9081A2291D900613CE7 /* DayViewExampleController.h */,
+				348AF9091A2291D900613CE7 /* DayViewExampleController.m */,
+				348AF90A1A2291D900613CE7 /* WeekViewExampleController.h */,
+				348AF90B1A2291D900613CE7 /* WeekViewExampleController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		348AF90C1A2291D900613CE7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				348AF90D1A2291D900613CE7 /* MAEventKitDataSource.h */,
+				348AF90E1A2291D900613CE7 /* MAEventKitDataSource.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		348AF90F1A2291D900613CE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				348AF9101A2291D900613CE7 /* MADayView.h */,
+				348AF9111A2291D900613CE7 /* MADayView.m */,
+				348AF9121A2291D900613CE7 /* MAEvent.h */,
+				348AF9131A2291D900613CE7 /* MAEvent.m */,
+				348AF9141A2291D900613CE7 /* MAGridView.h */,
+				348AF9151A2291D900613CE7 /* MAGridView.m */,
+				348AF9161A2291D900613CE7 /* MAWeekView.h */,
+				348AF9171A2291D900613CE7 /* MAWeekView.m */,
+				348AF9181A2291D900613CE7 /* TapDetectingView.h */,
+				348AF9191A2291D900613CE7 /* TapDetectingView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		348AF91A1A2291D900613CE7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				348AF91B1A2291D900613CE7 /* ma_leftArrow.png */,
+				348AF91C1A2291D900613CE7 /* ma_leftArrow@2x.png */,
+				348AF91D1A2291D900613CE7 /* ma_rightArrow.png */,
+				348AF91E1A2291D900613CE7 /* ma_rightArrow@2x.png */,
+				348AF91F1A2291D900613CE7 /* ma_topBackground.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		876E51331A228AA9008E5213 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +253,7 @@
 		876E513E1A228AA9008E5213 /* rxtime */ = {
 			isa = PBXGroup;
 			children = (
+				348AF9031A2291D900613CE7 /* Calendar */,
 				876E51961A228E4C008E5213 /* rxtime.entitlements */,
 				876E51431A228AA9008E5213 /* AppDelegate.h */,
 				876E51441A228AA9008E5213 /* AppDelegate.m */,
@@ -327,7 +430,7 @@
 				TargetAttributes = {
 					876E513B1A228AA9008E5213 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 7M64MPPM2T;
+						DevelopmentTeam = 686FACQA3X;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -378,9 +481,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348AF92B1A2291D900613CE7 /* ma_rightArrow.png in Resources */,
 				876E514E1A228AA9008E5213 /* Main.storyboard in Resources */,
 				876E51531A228AA9008E5213 /* LaunchScreen.xib in Resources */,
+				348AF9291A2291D900613CE7 /* ma_leftArrow.png in Resources */,
+				348AF92A1A2291D900613CE7 /* ma_leftArrow@2x.png in Resources */,
+				348AF92C1A2291D900613CE7 /* ma_rightArrow@2x.png in Resources */,
 				876E51501A228AA9008E5213 /* Images.xcassets in Resources */,
+				348AF92D1A2291D900613CE7 /* ma_topBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +525,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				876E514B1A228AA9008E5213 /* SecondViewController.m in Sources */,
+				348AF9221A2291D900613CE7 /* WeekViewExampleController.m in Sources */,
+				348AF9241A2291D900613CE7 /* MADayView.m in Sources */,
+				348AF9261A2291D900613CE7 /* MAGridView.m in Sources */,
+				348AF9271A2291D900613CE7 /* MAWeekView.m in Sources */,
 				876E51451A228AA9008E5213 /* AppDelegate.m in Sources */,
+				348AF9211A2291D900613CE7 /* DayViewExampleController.m in Sources */,
+				348AF9231A2291D900613CE7 /* MAEventKitDataSource.m in Sources */,
+				348AF9281A2291D900613CE7 /* TapDetectingView.m in Sources */,
 				876E51481A228AA9008E5213 /* FirstViewController.m in Sources */,
+				348AF9251A2291D900613CE7 /* MAEvent.m in Sources */,
 				876E51421A228AA9008E5213 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -702,6 +818,7 @@
 				876E51641A228AA9008E5213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		876E51651A228AA9008E5213 /* Build configuration list for PBXNativeTarget "rxtimeTests" */ = {
 			isa = XCConfigurationList;
@@ -710,6 +827,7 @@
 				876E51671A228AA9008E5213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		876E518F1A228B51008E5213 /* Build configuration list for PBXNativeTarget "rxtime Watch App" */ = {
 			isa = XCConfigurationList;
@@ -718,6 +836,7 @@
 				876E51911A228B51008E5213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		876E51921A228B51008E5213 /* Build configuration list for PBXNativeTarget "rxtime WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -726,6 +845,7 @@
 				876E51941A228B51008E5213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

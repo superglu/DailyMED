@@ -7,8 +7,13 @@
 //
 
 #import "FirstViewController.h"
-
+#import "DayViewExampleController.h"
+#import "WeekViewExampleController.h"
 @interface FirstViewController ()
+{
+    DayViewExampleController * dayVC;
+    WeekViewExampleController * weekWC;
+}
 
 @end
 
@@ -17,6 +22,8 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
+    dayVC = [[DayViewExampleController alloc] initWithNibName:@"" bundle:[NSBundle mainBundle]];
+    
 }
 
 - (void)didReceiveMemoryWarning {
