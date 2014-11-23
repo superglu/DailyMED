@@ -95,6 +95,8 @@
 		876E51871A228B51008E5213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876E51881A228B51008E5213 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		876E518A1A228B51008E5213 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		876E51961A228E4C008E5213 /* rxtime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = rxtime.entitlements; sourceTree = "<group>"; };
+		876E51971A228E69008E5213 /* rxtime WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "rxtime WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		876E513E1A228AA9008E5213 /* rxtime */ = {
 			isa = PBXGroup;
 			children = (
+				876E51961A228E4C008E5213 /* rxtime.entitlements */,
 				876E51431A228AA9008E5213 /* AppDelegate.h */,
 				876E51441A228AA9008E5213 /* AppDelegate.m */,
 				876E51461A228AA9008E5213 /* FirstViewController.h */,
@@ -200,6 +203,7 @@
 		876E51701A228B51008E5213 /* rxtime WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				876E51971A228E69008E5213 /* rxtime WatchKit Extension.entitlements */,
 				876E51741A228B51008E5213 /* InterfaceController.h */,
 				876E51751A228B51008E5213 /* InterfaceController.m */,
 				876E51771A228B51008E5213 /* NotificationController.h */,
@@ -323,6 +327,12 @@
 				TargetAttributes = {
 					876E513B1A228AA9008E5213 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7M64MPPM2T;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					876E51571A228AA9008E5213 = {
 						CreatedOnToolsVersion = 6.2;
@@ -330,6 +340,12 @@
 					};
 					876E516B1A228B51008E5213 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 7M64MPPM2T;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					876E51801A228B51008E5213 = {
 						CreatedOnToolsVersion = 6.2;
@@ -545,9 +561,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = rxtime/rxtime.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = rxtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -555,9 +575,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = rxtime/rxtime.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = rxtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -630,6 +654,9 @@
 		876E51931A228B51008E5213 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "rxtime WatchKit Extension/rxtime WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -637,6 +664,7 @@
 				INFOPLIST_FILE = "rxtime WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -644,9 +672,13 @@
 		876E51941A228B51008E5213 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "rxtime WatchKit Extension/rxtime WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "rxtime WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
