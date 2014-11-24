@@ -20,10 +20,12 @@
 		348AF92B1A2291D900613CE7 /* ma_rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91D1A2291D900613CE7 /* ma_rightArrow.png */; };
 		348AF92C1A2291D900613CE7 /* ma_rightArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91E1A2291D900613CE7 /* ma_rightArrow@2x.png */; };
 		348AF92D1A2291D900613CE7 /* ma_topBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 348AF91F1A2291D900613CE7 /* ma_topBackground.png */; };
+		698F8CAC1A229D6300E99D6F /* AddMedicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F8CAB1A229D6300E99D6F /* AddMedicationViewController.m */; };
+		698F8CAF1A22A18C00E99D6F /* ShowPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F8CAE1A22A18C00E99D6F /* ShowPictureViewController.m */; };
+		698F8CB21A22A28700E99D6F /* ShowMedDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F8CB11A22A28700E99D6F /* ShowMedDetailsViewController.m */; };
 		876E51421A228AA9008E5213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51411A228AA9008E5213 /* main.m */; };
 		876E51451A228AA9008E5213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51441A228AA9008E5213 /* AppDelegate.m */; };
 		876E51481A228AA9008E5213 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E51471A228AA9008E5213 /* FirstViewController.m */; };
-		876E514B1A228AA9008E5213 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876E514A1A228AA9008E5213 /* SecondViewController.m */; };
 		876E514E1A228AA9008E5213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876E514C1A228AA9008E5213 /* Main.storyboard */; };
 		876E51501A228AA9008E5213 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876E514F1A228AA9008E5213 /* Images.xcassets */; };
 		876E51531A228AA9008E5213 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876E51511A228AA9008E5213 /* LaunchScreen.xib */; };
@@ -99,6 +101,12 @@
 		348AF91D1A2291D900613CE7 /* ma_rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ma_rightArrow.png; sourceTree = "<group>"; };
 		348AF91E1A2291D900613CE7 /* ma_rightArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ma_rightArrow@2x.png"; sourceTree = "<group>"; };
 		348AF91F1A2291D900613CE7 /* ma_topBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ma_topBackground.png; sourceTree = "<group>"; };
+		698F8CAA1A229D6300E99D6F /* AddMedicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMedicationViewController.h; sourceTree = "<group>"; };
+		698F8CAB1A229D6300E99D6F /* AddMedicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMedicationViewController.m; sourceTree = "<group>"; };
+		698F8CAD1A22A18C00E99D6F /* ShowPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPictureViewController.h; sourceTree = "<group>"; };
+		698F8CAE1A22A18C00E99D6F /* ShowPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPictureViewController.m; sourceTree = "<group>"; };
+		698F8CB01A22A28700E99D6F /* ShowMedDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMedDetailsViewController.h; sourceTree = "<group>"; };
+		698F8CB11A22A28700E99D6F /* ShowMedDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMedDetailsViewController.m; sourceTree = "<group>"; };
 		876E513C1A228AA9008E5213 /* rxtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rxtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876E51401A228AA9008E5213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876E51411A228AA9008E5213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,8 +114,6 @@
 		876E51441A228AA9008E5213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		876E51461A228AA9008E5213 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		876E51471A228AA9008E5213 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		876E51491A228AA9008E5213 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		876E514A1A228AA9008E5213 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		876E514D1A228AA9008E5213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		876E514F1A228AA9008E5213 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		876E51521A228AA9008E5213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -259,8 +265,12 @@
 				876E51441A228AA9008E5213 /* AppDelegate.m */,
 				876E51461A228AA9008E5213 /* FirstViewController.h */,
 				876E51471A228AA9008E5213 /* FirstViewController.m */,
-				876E51491A228AA9008E5213 /* SecondViewController.h */,
-				876E514A1A228AA9008E5213 /* SecondViewController.m */,
+				698F8CAA1A229D6300E99D6F /* AddMedicationViewController.h */,
+				698F8CAB1A229D6300E99D6F /* AddMedicationViewController.m */,
+				698F8CAD1A22A18C00E99D6F /* ShowPictureViewController.h */,
+				698F8CAE1A22A18C00E99D6F /* ShowPictureViewController.m */,
+				698F8CB01A22A28700E99D6F /* ShowMedDetailsViewController.h */,
+				698F8CB11A22A28700E99D6F /* ShowMedDetailsViewController.m */,
 				876E514C1A228AA9008E5213 /* Main.storyboard */,
 				876E514F1A228AA9008E5213 /* Images.xcassets */,
 				876E51511A228AA9008E5213 /* LaunchScreen.xib */,
@@ -524,7 +534,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				876E514B1A228AA9008E5213 /* SecondViewController.m in Sources */,
+				698F8CAF1A22A18C00E99D6F /* ShowPictureViewController.m in Sources */,
 				348AF9221A2291D900613CE7 /* WeekViewExampleController.m in Sources */,
 				348AF9241A2291D900613CE7 /* MADayView.m in Sources */,
 				348AF9261A2291D900613CE7 /* MAGridView.m in Sources */,
@@ -533,6 +543,8 @@
 				348AF9211A2291D900613CE7 /* DayViewExampleController.m in Sources */,
 				348AF9231A2291D900613CE7 /* MAEventKitDataSource.m in Sources */,
 				348AF9281A2291D900613CE7 /* TapDetectingView.m in Sources */,
+				698F8CB21A22A28700E99D6F /* ShowMedDetailsViewController.m in Sources */,
+				698F8CAC1A229D6300E99D6F /* AddMedicationViewController.m in Sources */,
 				876E51481A228AA9008E5213 /* FirstViewController.m in Sources */,
 				348AF9251A2291D900613CE7 /* MAEvent.m in Sources */,
 				876E51421A228AA9008E5213 /* main.m in Sources */,
