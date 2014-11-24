@@ -44,7 +44,9 @@
 }
 
 - (IBAction)addMedication:(id)sender {
-    
+    // using dummy data.
+    [self.view removeFromSuperview];
+    //remove self from super view show calender view.
 }
 
 
