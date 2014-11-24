@@ -7,13 +7,16 @@
 //
 
 #import "FirstViewController.h"
-#import "DayViewExampleController.h"
-#import "WeekViewExampleController.h"
+#import "MADayView.h"
+#import "MAWeekView.h"
+
 @interface FirstViewController ()
 {
-    DayViewExampleController * dayVC;
-    WeekViewExampleController * weekWC;
+
 }
+
+@property IBOutlet MADayView * dayView;
+@property IBOutlet MAWeekView * weekView;
 
 @end
 
@@ -21,14 +24,30 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
-    dayVC = [[DayViewExampleController alloc] initWithNibName:@"" bundle:[NSBundle mainBundle]];
-    
+
 }
 
 - (void)didReceiveMemoryWarning {
   [super didReceiveMemoryWarning];
   // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)clickedWeek:(id)sender
+{
+    NSLog(@"Clicked Week");
+    if(self.weekView.isHidden){
+        [self.weekView setHidden:NO];
+        [self.dayView setHidden:YES];
+    }
+}
+
+-(IBAction)clickedDay:(id)sender
+{
+    NSLog(@"Clicked Day");
+    if(self.dayView.isHidden){
+        [self.weekView setHidden:YES];
+        [self.dayView setHidden:NO];
+    }
 }
 
 @end

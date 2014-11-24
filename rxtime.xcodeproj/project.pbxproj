@@ -144,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348AF96A1A2297F200613CE7 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +309,7 @@
 		876E516D1A228B51008E5213 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				348AF9691A2297F200613CE7 /* EventKit.framework */,
 				876E516E1A228B51008E5213 /* WatchKit.framework */,
 			);
 			name = Frameworks;
